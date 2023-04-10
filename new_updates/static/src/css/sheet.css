@@ -1,0 +1,658 @@
+
+ body{
+ font-family: 'poppins' !important;
+ }
+ .cardtabs{
+ max-width: 1540px !important;
+ margin: 0 auto !important;
+ /* padding-bottom: 64px !important; */
+ border-radius: 15px !important;
+ background-color: #fff !important;
+ border: 1px solid #eee !important;
+ border-radius: 10px !important;
+ }
+ .cardtabsh2{
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 48px !important;
+line-height: 62px !important;
+display: flex !important;
+align-items: center !important;
+letter-spacing: 0.02em !important;
+color: #187BCD !important;
+text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+ }
+ .cardtabsp{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 22px !important;
+line-height: 36px !important;
+display: flex !important;
+align-items: center !important;
+text-align: justify !important;
+letter-spacing: 0.02em !important;
+color: #5E6468 !important;
+ }
+ .buildtruck{
+ width: 396px !important;
+ height: 320px !important;
+ margin: 0 auto !important;
+ display: block !important;
+ }
+ .secrow{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 40px !important;
+line-height: 44px !important;
+margin-top: 30px !important;
+align-items: center !important;
+letter-spacing: 0.02em !important;
+color: #03254C !important;
+text-align: center !important;
+ }
+ .usecardpara{
+ font-style: normal !important;
+font-weight: 400 !important;
+font-size: 18px !important;
+line-height: 32px !important;
+display: flex !important;
+align-items: center !important;
+text-align: center !important;
+letter-spacing: 0.03em !important;
+color: #000000 !important;
+padding-top: 20px !important;
+ }
+ .usecardpara1{
+ font-style: normal !important;
+font-weight: 400 !important;
+font-size: 20px !important;
+line-height: 32px !important;
+display: flex !important;
+align-items: center !important;
+text-align: left !important;
+letter-spacing: 0.03em !important;
+color: #000000 !important;
+padding-top: 0px !important;
+ }
+ .usecard{
+ width: 108px !important;
+ height: 85px !important;
+ background: rgba(5, 0, 255, 0.65) !important;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+ border-radius: 11px !important;
+ margin: 0 auto !important;
+ }
+ .cardone{
+ width: 47px !important;
+ height: 58px !important;
+ margin-left: 30px !important;
+ margin-top: 15px !important;
+ }
+ .cardtwo{
+ width: 39px !important;
+height: 41px !important;
+margin-left: 35px !important;
+ margin-top: 20px !important;
+ }
+ .cardthree{
+ width: 36px !important;
+height: 39px !important;
+margin-left: 35px !important;
+ margin-top: 20px !important;
+
+ }
+ .stepone{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 32px !important;
+line-height: 44px !important;
+display: flex !important;
+align-items: center !important;
+letter-spacing: 0.02em !important;
+color: #000000 !important;
+ }
+ .listrow{
+ font-style: normal !important;
+font-weight: 600 !important;
+font-size: 24px !important;
+line-height: 32px !important;
+display: flex !important;
+align-items: center !important;
+letter-spacing: 0.02em !important;
+
+color: #000000 !important;
+ }
+ .includeshead{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 20px !important;
+line-height: 32px !important;
+display: flex !important;
+align-items: center !important;
+letter-spacing: 0.02em !important;
+
+color: #000000 !important;
+ }
+ .singleblue{
+ /* width: 1109px !important; */
+/* height: 531px !important; */
+background: #A0D4EE !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+padding: 35px !important;
+ }
+ .headtwoblue{
+ font-style: normal !important;
+font-weight: 400 !important;
+font-size: 40px !important;
+line-height: 38px !important;
+text-align: center !important;
+letter-spacing: 0.02em !important;
+color: #0C1562 !important;
+ }
+ .circle-singleline {
+ width: 70px !important;
+ height: 70px !important;
+ background: #1775C3 !important;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+ margin: 20px !important;
+ border-radius: 50% !important;
+ font-size: 39px !important;
+ line-height: 70px !important;
+ text-align: center !important;
+ color: #fff !important;
+ margin: 0 auto !important;
+}
+.listpara{
+ font-style: normal !important;
+font-weight: 400 !important;
+font-size: 24px !important;
+line-height: 36px !important;
+text-align: left !important;
+letter-spacing: 0.02em !important;
+color: #000000 !important;
+}
+ul {
+ list-style: none !important; /* Remove default bullets */
+}
+ul li::before {
+ content: "\2022" !important;
+ color: #176bb8 !important;
+ font-weight: bold !important; /* If you want it to be bold */
+ display: inline-block !important; /* Needed to add space between the bullet and the text */
+ width: 1em !important; /* Also needed for space (tweak if needed) */
+ margin-left: -1em !important; /* Also needed for space (tweak if needed) */
+}
+.servicesrow{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 40px !important;
+line-height: 44px !important;
+margin-top: 46px !important;
+text-align: center !important;
+letter-spacing: 0.02em !important;
+
+color: #03254C !important;
+}
+.mobiledev{
+ width: 384px !important;
+height: 107px !important;
+background: #F46827 !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 6px !important;
+margin: 0 auto !important;
+float: right !important;
+}
+.mobiledevcustom{
+ width: 384px !important;
+height: 107px !important;
+background: #017E84 !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 6px !important;
+margin-top: 40px !important;
+margin-bottom: 40px !important;
+}
+.mobiledevweb{
+ width: 384px !important;
+height: 107px !important;
+background: #714B67 !important;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 6px !important;
+margin: 0 auto !important;
+float: right !important;
+}
+.phonedev{
+ width: 53px !important;
+ height: 53px !important;
+ background: #FFFFFF !important;
+ box-shadow: 3px 1px 5px 2px rgba(0, 0, 0, 0.25) !important;
+ border-radius: 2px !important;
+ position: absolute !important;
+ margin-top: -20px !important;
+ margin-left: 15px !important;
+}
+.mobileserpara{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 24px !important;
+line-height: 28px !important;
+text-align: left !important;
+letter-spacing: 0.02em !important;
+color: #FFFFFF !important;
+padding-top: 25px !important;
+padding-left: 100px !important;
+}
+.bg-background{
+ background-color: #1167B1 !important;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25) !important;
+border-radius: 3px !important;
+/* height: 356px !important; */
+/* margin-top: 20px !important; */
+padding: 20px 56px 20px 40px !important;
+
+}
+.getstyle{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 40px !important;
+line-height: 44px !important;
+text-align: left !important;
+letter-spacing: 0.02em !important;
+color: #FFFFFF !important;
+}
+.getstylep{
+ font-style: normal !important;
+font-weight: 400 !important;
+font-size: 22px !important;
+line-height: 26px !important;
+text-align: justify !important;
+letter-spacing: -0.02em !important;
+color: #FFFFFF !important;
+}
+.blueback{
+ padding: 85px 50px 70px 25px !important;
+}
+.whitecardlogo{
+ width: 230px !important;
+}
+.whitecard{
+ /* width: 500px !important; */
+ height: auto !important;
+ background: #FFFFFF !important;
+ border-radius: 5px !important;
+ margin: 43px auto !important;
+ padding: 25px !important;
+}
+.whitecardlogo{
+ margin: 0 auto !important;
+ display: block !important;
+ }
+.parawhite{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 15px !important;
+line-height: 32px !important;
+text-align: center !important;
+letter-spacing: 0.02em !important;
+color: #0B1146 !important;
+padding-top: 45px !important;
+}
+.parawhitetwo{
+ font-style: normal !important;
+font-weight: 500 !important;
+font-size: 15px !important;
+line-height: 32px !important;
+text-align: center !important;
+letter-spacing: 0.02em !important;
+color: #0B1146 !important;
+}
+.line-center {
+ width: 50px !important;
+ height: 60px !important;
+ background: transparent !important;
+ border: none !important;
+ border-bottom: dashed 2px #6C757D !important;
+ margin-top: -15px !important;
+}
+.pt-3 {
+ padding: 3.5rem !important;
+}
+a{
+ text-decoration: none !important;
+}
+a:hover{
+ text-decoration: underline !important;
+ color: #0d6efd !important;
+}
+/* media queries for ipad and mobile views */
+@media only screen and (max-device-width: 375px) and (max-device-height: 667px) {
+ .paramob{
+ text-align: center !important;
+ }
+ .line-center {
+ width: 120px !important;
+ height: 60px !important;
+ background: transparent !important;
+ border: none !important;
+ border-right: dashed 2px #6C757D !important;
+ margin-top: -5px !important;
+ margin-left: 15px !important;
+ margin-bottom: 10px !important;
+}
+ .cardtabsh2{
+ font-size: 32px !important;
+ line-height: 35px !important;
+ }
+ .cardtabsp{
+ font-size: 18px !important;
+ line-height: 28px !important;
+ }
+ .pt-3 {
+ padding: 0.5rem !important;
+}
+ .secrow{
+ margin-top: 5px !important;
+ font-size: 28px !important;
+ line-height: 35px !important;
+ }
+ .stepone{
+ font-size: 24px !important;
+ line-height: 28px !important;
+ margin-top: 5px !important;
+ }
+ .listrow{
+ font-size: 16px !important;
+ line-height: 24px !important;
+ }
+ .includeshead{
+ font-size: 16px !important;
+ line-height: 28px !important;
+ }
+ .headtwoblue{
+ font-size: 24px !important;
+ line-height: 31px !important;
+ }
+ .usecardpara1{
+ font-size: 16px !important;
+ line-height: 25px !important;
+ text-align: left !important;
+ }
+ .mobiledev{
+ width: 270px !important;
+ float: none !important;
+ }
+ .custmob{
+ margin: 40px auto !important;
+ }
+ .mobiledevcustom, .mobiledevweb{
+ width: 274px !important;
+ float: none !important;
+ }
+ .buildtruck{
+ width: 190px !important;
+ height: 153px !important;
+ }
+ .circle-singleline{
+ width: 30px !important;
+ height: 30px !important;
+ font-size: 14px !important;
+ line-height: 32px !important;
+ }
+ .listpara{
+ font-size: 16px !important;
+ line-height: 26px !important;
+ }
+ .servicesrow{
+ font-size: 32px !important;
+ line-height: 44px !important;
+ margin-top: 32px !important;
+ }
+ .mobileserpara{
+ font-size: 18px !important;
+ line-height: 28px !important;
+ padding-left: 85px !important;
+ }
+ .getstyle{
+ font-size: 32px !important;
+ line-height: 44px !important;
+ }
+ .getstylep{
+ font-size: 18px !important;
+ line-height: 23px !important;
+ }
+ .blueback{
+ padding: 15px 20px 15px 16px !important;
+ }
+ .my-container{
+ padding: 0px !important;
+ }
+ .bg-background{
+ padding: 20px 23px 23px 18px !important;
+ }
+ .whitecard{
+ margin: 0 auto !important;
+ }
+ .coloj{
+ margin-top: 15px !important;
+ }
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+ .paramob{
+ text-align: center !important;
+ }
+ .line-center {
+ width: 120px !important;
+ height: 60px !important;
+ background: transparent !important;
+ border: none !important;
+ border-right: dashed 2px #6C757D !important;
+ margin-top: -5px !important;
+ margin-left: 15px !important;
+ margin-bottom: 10px !important;
+}
+ .cardtabsh2{
+ font-size: 32px !important;
+ line-height: 35px !important;
+ }
+ .cardtabsp{
+ font-size: 18px !important;
+ line-height: 28px !important;
+ }
+ .pt-3 {
+ padding: 0.5rem !important;
+}
+ .secrow{
+ margin-top: 5px !important;
+ font-size: 28px !important;
+ line-height: 35px !important;
+ }
+ .stepone{
+ font-size: 24px !important;
+ line-height: 28px !important;
+ margin-top: 5px !important;
+ }
+ .listrow{
+ font-size: 16px !important;
+ line-height: 24px !important;
+ }
+ .includeshead{
+ font-size: 16px !important;
+ line-height: 28px !important;
+ }
+ .headtwoblue{
+ font-size: 24px !important;
+ line-height: 31px !important;
+ }
+ .usecardpara1{
+ font-size: 16px !important;
+ line-height: 25px !important;
+ text-align: left !important;
+ }
+ .mobiledev{
+ width: 270px !important;
+ float: none !important;
+ }
+ .custmob{
+ margin: 40px auto !important;
+ }
+ .mobiledevcustom, .mobiledevweb{
+ width: 274px !important;
+ float: none !important;
+ }
+ .buildtruck{
+ width: 190px !important;
+ height: 153px !important;
+ }
+ .circle-singleline{
+ width: 30px !important;
+ height: 30px !important;
+ font-size: 14px !important;
+ line-height: 32px !important;
+ }
+ .listpara{
+ font-size: 16px !important;
+ line-height: 26px !important;
+ }
+ .servicesrow{
+ font-size: 32px !important;
+ line-height: 44px !important;
+ margin-top: 32px !important;
+ }
+ .mobileserpara{
+ font-size: 18px !important;
+ line-height: 28px !important;
+ padding-left: 85px !important;
+ }
+ .getstyle{
+ font-size: 32px !important;
+ line-height: 44px !important;
+ }
+ .getstylep{
+ font-size: 18px !important;
+ line-height: 23px !important;
+ }
+ .blueback{
+ padding: 15px 20px 15px 16px !important;
+ }
+ .my-container{
+ padding: 0px !important;
+ }
+ .bg-background{
+ padding: 20px 23px 23px 18px !important;
+ }
+ .whitecard{
+ margin: 0 auto !important;
+ }
+ .coloj{
+ margin-top: 15px !important;
+ }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+ .coloj{
+ margin-top: 20px !important;
+ }
+.usecardpara{
+margin-bottom: 0rem !important;
+}
+ .secrow{
+ margin-top: 20px !important;
+ }
+ .custmob{
+ float: right !important;
+ }
+ .buildtruck {
+ width: 250px !important;
+ height: auto !important;
+ margin: 0 auto !important;
+ display: block !important;
+}
+ .whitecard{
+ width: 280px !important;
+ }
+ .pt-3{
+ padding: 0.5rem !important;
+ }
+ .line-center{
+ width: 40px !important;
+ }
+ .paramob{
+ font-size: 16px !important;
+ }
+ .my-container{
+ padding: 0px !important;
+ margin-top: 40px !important;
+ }
+ .bg-background{
+ padding: 20px 40px 20px 5px !important;
+ margin-top: 0px !important;
+ }
+ .blueback {
+ padding: 45px 30px 45px 25px !important;
+}
+.mobiledevweb, .mobiledev{
+ float: none !important;
+}
+
+}
+@media screen and (min-width: 1400px) {
+.cardtabs{
+ max-width: 1140px !important;
+ }
+}
+@media only screen and (max-device-width: 375px) and (max-device-height: 667px) {
+    .centi {
+        display: block !important;
+    }
+
+    .oneline-center {
+        width: 2px !important;
+        height: 60px !important;
+        background: transparent !important;
+        border: none !important;
+        border-left: dashed 2px #6C757D !important;
+        text-align: center !important;
+        align-items: center !important;
+        display: flex !important;
+        margin: 15px auto !important;
+    }
+
+    .line-center {
+        display: none !important;
+    }
+}
+@media only screen and (max-device-width: 414px) and (max-device-height: 896px) {
+    .centi {
+        display: block !important;
+    }
+
+    .oneline-center {
+        width: 2px !important;
+        height: 60px !important;
+        background: transparent !important;
+        border: none !important;
+        border-left: dashed 2px #6C757D !important;
+        text-align: center !important;
+        align-items: center !important;
+        display: flex !important;
+        margin: 15px auto !important;
+    }
+
+    .line-center {
+        display: none !important;
+    }
+}
+@media only screen and (device-width: 414px) and (device-height: 812px)  and (-webkit-device-pixel-ratio: 2) {
+ .coloj {
+ display: block !important;
+ }
+ }
+ @media only screen and (max-device-width: 375px) and (max-device-height: 667px) {
+    .coloj {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-device-width: 414px) and (max-device-height: 896px) {
+    .coloj {
+        display: block !important;
+    }
+}
