@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+<!--# code commented by jagadishmagesh1999@gmail.com-->
+    <record id="module_form_inherit" model="ir.ui.view">
+        <field name="name">ir.module.module.form.inherit</field>
+        <field name="model">ir.module.module</field>
+        <field name="inherit_id" ref="base.module_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/notebook/page[@name='information']" position="inside">
+                  <link rel="stylesheet" href="/inventory_movement_report/static/src/css/sheet.css"/>
+            </xpath>
+        </field>
+    </record>
+
+
+</odoo>
